@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #111111;
+  --color-secondary: #b69a63;
+  --color-background: #faf9f6;
+  --color-surface: #ffffff;
+  --color-text: #171717;
+  --color-muted-text: #777777;
+  --color-border: #e6e2da;
+  --font-primary: 'Hind Siliguri';
+}
+
+@layer base {
+  html {
+    font-family: var(--font-primary), system-ui, -apple-system, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
